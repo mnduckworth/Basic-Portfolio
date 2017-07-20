@@ -6,3 +6,14 @@ h1{
 	background-color: #ffffff;
 	border-color: #cccccc;
 }
+body{
+	background-image: url("assets/images/dark-triangles.png");
+	background-color: #cccccc;
+}
+.content-inside{
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+.footer{
+	background-color: #666666;
+}
