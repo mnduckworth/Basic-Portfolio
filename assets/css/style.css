@@ -5,8 +5,13 @@ h1{
 	color: white;
 }
 .head{
+	float: left;
+	margin-left: 15px;
+	width: 240px;
+	height: 85px;
 	background-color: #ffffff;
 	border-color: #cccccc;
+	padding-bottom: 0px;
 }
 body{
 	background-image: url("assets/images/dark-triangles.png");
@@ -43,10 +48,13 @@ body{
 	float: left;
 	width: 270px;
 }
-.menu{
-	float: left;
-	margin-left: 30px;
-}
 h2{
 	color: #4aaaa5;
+}
+.menu{
+	float: left;
+	background-color: white;
+}
+.header{
+	background-color: white;
 }
