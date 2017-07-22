@@ -5,8 +5,8 @@ h1{
 	color: white;
 }
 .head{
+	border-width: 5px;
 	float: left;
-	margin-left: 15px;
 	width: 240px;
 	height: 85px;
 	background-color: #ffffff;
@@ -14,10 +14,11 @@ h1{
 	padding-bottom: 0px;
 }
 body{
-	background-image: url("assets/images/dark-triangles.png");
-	background-color: #cccccc;
+	background-image: url("../images/dark-triangles.png");
+
 }
 .content-inside{
+	border-width: 5px;
 	background-color: #ffffff;
 	border-color: #dddddd;
 }
@@ -38,6 +39,7 @@ body{
 	width: 960px;
 }
 .content-inside{
+	margin-top: 10px;
 	margin-left: 15px;
 	margin-right: 5px;
 	float: left;
@@ -52,6 +54,9 @@ h2{
 	color: #4aaaa5;
 }
 .menu{
+	text-align: center;
+	width: 720px;
+	height: 85px;
 	float: left;
 	background-color: white;
 }
