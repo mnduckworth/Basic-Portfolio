@@ -5,17 +5,15 @@ h1{
 	color: white;
 }
 #head{
-	margin: 0;
 	text-align: center;
 	size: 20px;
 	float: left;
-	width: 240px;
-	height: 85px;
-	background-color: #ffffff;
+	width: 400px;
+	height: 50px;
 }
 body{
 	background-image: url("../images/concrete-texture.png");
-	background-size: 960px 370px;
+	background-size: 960px 495px;
 	background-repeat: no-repeat;
 
 }
@@ -25,10 +23,10 @@ body{
 	border-color: #dddddd;
 }
 #footer{
+	float: left;
 	margin-top: 10px;
 	text-align: center;
 	width: 100%;
-	float: left;
 	height: 50px;
 	background-color: #666666;
 }
@@ -42,13 +40,19 @@ body{
 	width: 960px;
 }
 .main_content{
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
 	margin-top: 10px;
 	margin-left: 15px;
-	margin-right: 5px;
+	margin-right: 1px;
 	float: left;
 	width: 650px;
 }
 #connect{
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
 	margin-right: 20px;
 	float: left;
 	width: 270px;
@@ -58,14 +62,23 @@ h2{
 }
 #menu{
 	text-align: center;
-	width: 720px;
-	height: 85px;
-	float: left;
-	background-color: white;
+	float: right;
+	margin-right: 100px;
+	margin-top: 25px;
 }
 #header{
+	margin-left: 0;
+	height: 58px;
 	width: 100%;
-	background-color: white;
+	background-color: #ffffff;
 	border-color: #cccccc;
-	border-size: 20px;
+	border-size: 1px;
+	border-style: solid;
+}
+a:visited{
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: #777777;
 }
