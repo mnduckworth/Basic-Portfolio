@@ -4,13 +4,14 @@ h1{
 	background-color: #4aaaa5;
 	color: white;
 }
-.head{
-	border-width: 5px;
+#head{
+	margin: 0;
+	text-align: center;
+	size: 20px;
 	float: left;
 	width: 240px;
 	height: 85px;
 	background-color: #ffffff;
-	padding-bottom: 0px;
 }
 body{
 	background-image: url("../images/dark-triangles.png");
@@ -18,12 +19,12 @@ body{
 	background-repeat: no-repeat;
 
 }
-.content-inside{
+.main_content{
 	border-width: 5px;
 	background-color: #ffffff;
 	border-color: #dddddd;
 }
-.footer{
+#footer{
 	margin-top: 10px;
 	text-align: center;
 	width: 100%;
@@ -31,7 +32,8 @@ body{
 	height: 50px;
 	background-color: #666666;
 }
-.connect{
+#connect{
+	margin-top: 10px;
 	text-align: center;
 	background-color: #ffffff;
 	border-color: #dddddd;
@@ -39,14 +41,14 @@ body{
 body{
 	width: 960px;
 }
-.content-inside{
+.main_content{
 	margin-top: 10px;
 	margin-left: 15px;
 	margin-right: 5px;
 	float: left;
 	width: 650px;
 }
-.connect{
+#connect{
 	margin-right: 20px;
 	float: left;
 	width: 270px;
@@ -54,14 +56,14 @@ body{
 h2{
 	color: #4aaaa5;
 }
-.menu{
+#menu{
 	text-align: center;
 	width: 720px;
 	height: 85px;
 	float: left;
 	background-color: white;
 }
-.header{
+#header{
 	width: 100%;
 	background-color: white;
 	border-color: #cccccc;
