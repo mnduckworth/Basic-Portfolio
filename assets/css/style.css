@@ -80,6 +80,9 @@ a{
 	text-decoration: none;
 	color: #777777;
 }
+a:hover{
+	opacity: .5;
+}
 #firstplaceholder{
 	width:45%;
 	margin-left: 15px;
